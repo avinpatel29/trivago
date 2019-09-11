@@ -102,6 +102,7 @@ public class TestBaseUI {
      * Method to quit the driver
      */
     public void quitDriver() {
+
         driver.quit();
     }
 
@@ -131,7 +132,7 @@ public class TestBaseUI {
         console.activateOptions();
         Logger.getRootLogger().addAppender(console);
         FileAppender fa = new FileAppender();
-        fa.setFile(getProperty("user.dir") + GetConfig.getProperties("start.log") + "Acrolinx_log.txt");
+        fa.setFile(getProperty("user.dir") + GetConfig.getProperties("start.log") + "trivago_log.txt");
         fa.setLayout(new PatternLayout("%d %-5p [%c{1}] %m%n"));
         fa.setThreshold(Level.INFO);
         fa.setAppend(false);
