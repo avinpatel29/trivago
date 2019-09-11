@@ -25,6 +25,9 @@ For API:
     mvn clean install -Dcomponent=API
 ```
 
+<b>Note:</b> Drivers are also included in the project. Chrome driver included in the project is 76.0.x. Please feel free to replace with the version of driver where you want to run the tests.</font>
+
+
 ## Project Structure
 As the project is maven based, have followed 'standard' maven project structure as below:
 
